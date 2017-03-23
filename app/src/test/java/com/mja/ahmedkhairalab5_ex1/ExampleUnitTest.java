@@ -1,4 +1,4 @@
-package com.mja.lab7databasessqlite;
+package com.mja.ahmedkhairalab5_ex1;
 
 import org.junit.Test;
 
