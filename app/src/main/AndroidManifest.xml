@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.cc.mja.lab5graphics">
+    package="com.mja.lab5graphicstweening">
 
     <application
         android:allowBackup="true"
