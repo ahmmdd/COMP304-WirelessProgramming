@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.mja.lab7databasessqlite">
+    package="com.mja.mohammedahmedlab4_ex1">
 
     <application
         android:allowBackup="true"
@@ -15,6 +15,13 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+        <activity android:name=".RegisterActivity" />
+        <activity android:name=".DoctorActivity" />
+        <activity android:name=".StaffActivity" />
+        <activity android:name=".DisplayPatientAndTestInfo" />
+        <activity android:name=".AddTestActivity" />
+        <activity android:name=".AddPatientActivity" />
+        <activity android:name=".ShowTest" />
     </application>
 
 </manifest>
