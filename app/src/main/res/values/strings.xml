@@ -1,7 +1,4 @@
 <resources>
-    <string name="app_name">Lab5GraphicsTweening</string>
-    <string name="spin_button">Spin</string>
-    <string name="move_button">move</string>
-    <string name="grow_button">Grow</string>
-    <string name="fade_button">Fade</string>
+    <string name="app_name">Lab6DataStorageAPI</string>
+    <string name="credentials_pref">Credentials</string>
 </resources>

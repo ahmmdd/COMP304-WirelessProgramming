@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.mja.lab5graphicstweening">
+    package="com.mja.lab6datastorageapi">
 
     <application
         android:allowBackup="true"

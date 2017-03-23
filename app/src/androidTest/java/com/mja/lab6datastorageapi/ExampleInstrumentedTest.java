@@ -1,4 +1,4 @@
-package com.mja.lab5graphicstweening;
+package com.mja.lab6datastorageapi;
 
 import android.content.Context;
 import android.support.test.InstrumentationRegistry;
@@ -21,6 +21,6 @@ public class ExampleInstrumentedTest {
         // Context of the app under test.
         Context appContext = InstrumentationRegistry.getTargetContext();
 
-        assertEquals("com.mja.lab5graphicstweening", appContext.getPackageName());
+        assertEquals("com.mja.lab6datastorageapi", appContext.getPackageName());
     }
 }

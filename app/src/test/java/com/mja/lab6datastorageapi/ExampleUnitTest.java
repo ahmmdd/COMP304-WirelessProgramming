@@ -1,4 +1,4 @@
-package com.mja.lab5graphicstweening;
+package com.mja.lab6datastorageapi;
 
 import org.junit.Test;
 
