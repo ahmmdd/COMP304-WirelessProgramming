@@ -1,4 +1,4 @@
-package com.cc.mja.layoutandmenusample;
+package com.cc.mja.uiviewslab4;
 
 import android.app.Application;
 import android.test.ApplicationTestCase;

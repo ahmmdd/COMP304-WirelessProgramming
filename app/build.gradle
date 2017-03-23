@@ -5,7 +5,7 @@ android {
     buildToolsVersion "24.0.2"
 
     defaultConfig {
-        applicationId "com.cc.mja.layoutandmenusample"
+        applicationId "com.cc.mja.uiviewslab4"
         minSdkVersion 23
         targetSdkVersion 24
         versionCode 1

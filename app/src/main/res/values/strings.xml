@@ -1,10 +1,8 @@
 <resources>
-    <string name="app_name">LayoutUseSample</string>
-    <string name="button1">button1</string>
-    <string name="button2">Button2</string>
-    <string name="button3">Button3</string>
-    <string name="button4">Button4</string>
-    <string name="option1">First Option</string>
-    <string name="option2">Second Option</string>
-    <string name="option3">Third Option</string>
+    <string name="app_name">UIViewsLab4</string>
+    <string-array name="string_array_provinces">
+        <item>ON</item>
+        <item>AB</item>
+        <item>SK</item>
+    </string-array>
 </resources>
