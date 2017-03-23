@@ -10,16 +10,28 @@
     android:paddingTop="@dimen/activity_vertical_margin"
     tools:context="com.mja.lab6fragments.MainActivity">
 
-    <TextView
+    <CheckBox
+        android:id="@+id/option1"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Select an option from the menu" />
+        android:text="Option One" />
 
-    <LinearLayout
-        android:layout_width="match_parent"
+    <CheckBox
+        android:id="@+id/option2"
+        android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:orientation="vertical"
-        android:id="@+id/fragment_container" >
-    </LinearLayout>
+        android:text="Option Two" />
+
+    <CheckBox
+        android:id="@+id/option3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Option Three" />
+
+    <Button
+        android:id="@+id/submitFragment1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Submit" />
 
 </LinearLayout>

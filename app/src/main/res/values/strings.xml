@@ -1,4 +1,3 @@
 <resources>
-    <string name="app_name">Lab6DataStorageAPI</string>
-    <string name="credentials_pref">Credentials</string>
+    <string name="app_name">Lab6Fragments</string>
 </resources>

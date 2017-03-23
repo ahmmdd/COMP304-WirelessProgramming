@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/Lab6DataStorageAPI.iml" filepath="$PROJECT_DIR$/Lab6DataStorageAPI.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Lab6Fragments.iml" filepath="$PROJECT_DIR$/Lab6Fragments.iml" />
       <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
     </modules>
   </component>

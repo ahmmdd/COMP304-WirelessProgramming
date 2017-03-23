@@ -1,4 +1,4 @@
-package com.mja.lab6datastorageapi;
+package com.mja.lab6fragments;
 
 import org.junit.Test;
 
