@@ -5,7 +5,7 @@ android {
     buildToolsVersion "24.0.2"
 
     defaultConfig {
-        applicationId "com.comp304.mohammed.test1"
+        applicationId "com.cc.mja.lab5graphics"
         minSdkVersion 23
         targetSdkVersion 24
         versionCode 1

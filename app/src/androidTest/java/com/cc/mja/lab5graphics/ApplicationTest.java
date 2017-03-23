@@ -1,4 +1,4 @@
-package com.comp304.mohammed.test1;
+package com.cc.mja.lab5graphics;
 
 import android.app.Application;
 import android.test.ApplicationTestCase;
