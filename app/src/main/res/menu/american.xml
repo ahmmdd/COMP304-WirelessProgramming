@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item  android:id="@+id/keg"
+        android:title="The Keg"
+        />
+    <item  android:id="@+id/senator"
+        android:title="Senator Restaurant"
+        />
+    <item  android:id="@+id/sunset"
+        android:title="Sunset Grill"
+        />
+</menu>

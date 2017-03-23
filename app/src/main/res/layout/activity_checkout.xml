@@ -1,0 +1,170 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fillViewport="true">
+    <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:id="@+id/activity_checkout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:paddingBottom="@dimen/activity_vertical_margin"
+        android:paddingLeft="@dimen/activity_horizontal_margin"
+        android:paddingRight="@dimen/activity_horizontal_margin"
+        android:paddingTop="@dimen/activity_vertical_margin"
+        tools:context="com.example.akaur_000.orderyourfood.Checkout">
+        <TextView
+            style="@style/headerLogo"
+            android:id="@+id/logo1"/>
+
+        <TextView
+            android:text="Order Details:"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:textSize="20sp"
+            android:id="@+id/orderTextView"
+            android:layout_below="@+id/logo1" />
+
+        <TextView
+            android:text="Name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/orderTextView"
+            android:layout_alignParentStart="true"
+            android:layout_marginStart="20dp"
+            android:layout_marginTop="20dp"
+            android:id="@+id/nameTxtView" />
+
+        <TextView
+            android:text="TextView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignTop="@+id/nameTxtView"
+            android:layout_toRightOf="@+id/nameTxtView"
+            android:layout_alignStart="@+id/orderTextView"
+            android:layout_marginStart="20dp"
+            android:id="@+id/enterNameTxt" />
+
+        <TextView
+            android:text="Address"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/nameTxtView"
+            android:layout_alignStart="@+id/nameTxtView"
+            android:layout_marginTop="20dp"
+            android:id="@+id/addressTxtView" />
+
+        <TextView
+            android:text="TextView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBottom="@+id/addressTxtView"
+            android:layout_alignStart="@+id/orderTextView"
+            android:layout_marginStart="20dp"
+            android:id="@+id/enterAddressTxt" />
+
+        <TextView
+            android:text="Postal Code"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/addressTxtView"
+            android:layout_alignStart="@+id/addressTxtView"
+            android:layout_marginTop="20dp"
+            android:id="@+id/postalTxtView" />
+
+        <TextView
+            android:text="TextView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignTop="@+id/postalTxtView"
+            android:layout_alignStart="@+id/orderTextView"
+            android:layout_marginStart="20dp"
+            android:id="@+id/enterPostalTxt" />
+
+        <TextView
+            android:text="Fav Cuisine"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/postalTxtView"
+            android:layout_alignStart="@+id/postalTxtView"
+            android:layout_marginTop="20dp"
+            android:id="@+id/favCuTxtView" />
+
+        <TextView
+            android:text="TextView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBottom="@+id/favCuTxtView"
+            android:layout_alignStart="@+id/orderTextView"
+            android:layout_centerHorizontal="true"
+            android:layout_marginStart="20dp"
+            android:id="@+id/enterFavTxt" />
+
+        <TextView
+            android:text="Payment Type"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/favCuTxtView"
+            android:layout_alignStart="@+id/favCuTxtView"
+            android:layout_marginTop="20dp"
+            android:id="@+id/payTxtView" />
+
+        <TextView
+            android:text="TextView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBottom="@+id/payTxtView"
+            android:layout_alignEnd="@+id/enterFavTxt"
+            android:layout_centerHorizontal="true"
+            android:layout_marginStart="20dp"
+            android:id="@+id/enterPayTxt" />
+
+        <TextView
+            android:text="Credit Card"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/payTxtView"
+            android:layout_alignStart="@+id/payTxtView"
+            android:layout_marginTop="20dp"
+            android:id="@+id/cardTxtView" />
+
+        <TextView
+            android:text="TextView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignTop="@+id/cardTxtView"
+            android:layout_alignStart="@+id/enterPayTxt"
+            android:layout_centerHorizontal="true"
+            android:id="@+id/enterCardTxt" />
+
+        <TextView
+            android:text="Ordered Items:"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/cardTxtView"
+            android:layout_alignStart="@+id/cardTxtView"
+            android:layout_marginTop="20dp"
+            android:id="@+id/orderItemsTxtView" />
+
+        <TextView
+            android:text="TextView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignTop="@+id/orderItemsTxtView"
+            android:layout_alignStart="@+id/enterCardTxt"
+            android:layout_centerHorizontal="true"
+            android:id="@+id/enterOrdrItmTxt" />
+
+        <Button
+            android:text="CHECKOUT"
+            android:textSize="24sp"
+            style="@style/btnStyle"
+            android:layout_below="@+id/enterOrdrItmTxt"
+            android:layout_marginTop="53dp"
+            android:onClick="checkoutClick"
+            android:id="@+id/chckoutBtn" />
+
+
+    </RelativeLayout>
+</ScrollView>

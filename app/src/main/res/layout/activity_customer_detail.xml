@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fillViewport="true">
+
+    <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:id="@+id/activity_customer_details"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:paddingBottom="@dimen/activity_vertical_margin"
+        android:paddingLeft="@dimen/activity_horizontal_margin"
+        android:paddingRight="@dimen/activity_horizontal_margin"
+        android:paddingTop="@dimen/activity_vertical_margin"
+        tools:context="com.mja.intercontenentalhotel.CustomerDetail">
+
+        <TextView
+            style="@style/headerLogo"
+            android:id="@+id/logo1"/>
+
+        <EditText
+            style="@style/CustomerDetails"
+            android:inputType="text"
+            android:hint="Enter Full Name"
+            android:ems="10"
+            android:id="@+id/name"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentStart="true" />
+
+        <EditText
+            style="@style/CustomerDetails"
+            android:inputType="text"
+            android:hint="Enter Address"
+            android:ems="10"
+            android:layout_below="@+id/name"
+            android:layout_alignEnd="@+id/name"
+            android:id="@+id/address" />
+
+        <EditText
+            style="@style/CustomerDetails"
+            android:inputType="text"
+            android:hint="Enter Postal Code"
+            android:ems="10"
+            android:layout_below="@+id/address"
+            android:layout_alignEnd="@+id/address"
+            android:id="@+id/postalCode" />
+
+        <EditText
+            style="@style/CustomerDetails"
+            android:inputType="text"
+            android:hint="Enter Favourite Cuisine"
+            android:ems="10"
+            android:layout_below="@+id/postalCode"
+            android:layout_alignStart="@+id/postalCode"
+            android:id="@+id/favCuisine" />
+
+        <TextView
+            android:text="Select payment type: "
+            android:layout_width="wrap_content"
+            android:textSize="15sp"
+            android:layout_height="20dp"
+            android:ems="10"
+            android:layout_below="@+id/favCuisine"
+            android:layout_alignStart="@+id/favCuisine"
+            android:layout_marginTop="25dp"
+            android:id="@+id/textView2" />
+        <RadioGroup
+            android:id="@+id/paymentInfo"
+            android:orientation="horizontal"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/favCuisine"
+            android:layout_toRightOf="@+id/textView2"
+            android:layout_marginTop="25dp">
+
+            <RadioButton
+                android:text="Visa"
+                android:layout_width="wrap_content"
+                android:layout_height="20dp"
+                android:layout_alignTop="@+id/textView2"
+                android:ems="25"
+                android:layout_marginEnd="20dp"
+                android:layout_marginLeft="30dp"
+                android:checked="true"
+                android:id="@+id/visa"
+                android:layout_toEndOf="@+id/textView2" />
+
+            <RadioButton
+                android:text="Mastercard"
+                android:layout_width="wrap_content"
+                android:layout_height="20dp"
+                android:layout_alignTop="@+id/visa"
+                android:ems="10"
+                android:layout_toEndOf="@+id/visa"
+                android:checked="false"
+                android:id="@+id/mastercard" />
+        </RadioGroup>
+
+        <EditText
+            style="@style/CustomerDetails"
+            android:inputType="number"
+            android:hint="Enter credit card number"
+            android:ems="10"
+            android:maxLength="16"
+            android:layout_below="@+id/textView2"
+            android:layout_alignParentStart="true"
+            android:id="@+id/creditCard" />
+
+        <Button
+            android:text="ORDER"
+            android:textSize="24sp"
+            android:layout_below="@+id/creditCard"
+            style="@style/btnStyle"
+            android:layout_marginTop="30dp"
+            android:id="@+id/orderBtn"
+            android:onClick="orderClick"/>
+
+
+    </RelativeLayout>
+
+</ScrollView>

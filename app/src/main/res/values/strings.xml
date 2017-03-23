@@ -1,8 +1,16 @@
 <resources>
-    <string name="app_name">Exersice 2</string>
-    <string name="name_message">Name</string>
-    <string name="program_message">Program Name</string>
-    <string name="semester_message">Semester</string>
-    <string name="course_message">Course Name</string>
-    <string name="button_send">Send</string>
+    <string name="app_name">Intercontinental Hotel</string>
+    <string name="author">Mohammed Ahmed</string>
+    <string name="enter">ENTER</string>
+    <string name="next">NEXT</string>
+    <string name="america">American</string>
+    <string name="china">Chinese</string>
+    <string name="italy">Italian</string>
+
+
+    <string name="cuisine">Select Cuisine</string>
+    <string name="american">Select American restaurant from the top menu.</string>
+    <string name="italian">Select Italian restaurant from the top menu.</string>
+    <string name="chinese">Select Chinese restaurant from the top menu.</string>
+    <string name="selectLblFood">Select one or more following items</string>
 </resources>

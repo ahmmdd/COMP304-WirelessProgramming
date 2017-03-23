@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item  android:id="@+id/novita"
+        android:title="Novita Italian Cuisine"
+        />
+    <item  android:id="@+id/santos"
+        android:title="Santos Italian Cuisine"
+        />
+    <item  android:id="@+id/romano"
+        android:title="Romano's Resturant"
+        />
+    <item  android:id="@+id/la"
+        android:title="LaCampagna Italian Eatery"
+        />
+</menu>

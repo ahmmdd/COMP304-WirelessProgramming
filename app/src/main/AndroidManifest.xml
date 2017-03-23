@@ -1,8 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.centennialcollege.mohammedjuned.mohammedjunedahmed_comp304lab1_ex2"
-    android:versionCode="1"
-    android:versionName="1.0.1">
+    package="com.mja.intercontenentalhotel">
 
     <application
         android:allowBackup="true"
@@ -10,19 +8,18 @@
         android:label="@string/app_name"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".MainActivity">
+        <activity android:name=".MainActivity" android:launchMode="singleTask">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
-
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+        <activity android:name=".Cuisine" />
+        <activity android:name=".CustomerDetail" />
+        <activity android:name=".Checkout" />
+        <activity android:name=".resAmerican" />
+        <activity android:name=".resItalian" />
+        <activity android:name=".resChinese" />
     </application>
-
-    <uses-permission android:name="android.permission.CALL_PRIVILEGED"></uses-permission>
-    <uses-permission android:name="android.permission.CALL_PHONE"></uses-permission>
-    <uses-permission android:name="android.permission.INTERNET"></uses-permission>
-    <uses-permission android:name="android.permission.CAMERA"></uses-permission>
-    <uses-permission android:name="android.permission.READ_CONTACTS"></uses-permission>
 
 </manifest>

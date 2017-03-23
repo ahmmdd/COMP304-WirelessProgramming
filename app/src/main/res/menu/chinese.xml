@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item  android:id="@+id/jade"
+        android:title="Jade Chinese Cuisine"
+        />
+    <item  android:id="@+id/pearl"
+        android:title="Pearl Harbourfront"
+        />
+    <item  android:id="@+id/dynasty"
+        android:title="Dynasty Chinese Crusine"
+        />
+    <item  android:id="@+id/grand"
+        android:title="The Grand Lake"
+        />
+</menu>

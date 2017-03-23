@@ -3,4 +3,9 @@
     <color name="colorPrimary">#3F51B5</color>
     <color name="colorPrimaryDark">#303F9F</color>
     <color name="colorAccent">#FF4081</color>
+    <color name="btnEnter">#aaa</color>
+    <color name="bgColor">#A39B9B</color>
+    <color name="hint">#a39b9b</color>
+    <color name="black">#1d1c1c</color>
+    <color name="checkBox">#161616</color>
 </resources>
