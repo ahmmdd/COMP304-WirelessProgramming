@@ -1,4 +1,4 @@
-package com.cc.mja.lab5adapters;
+package com.comp304.mohammed.test1;
 
 import android.app.Application;
 import android.test.ApplicationTestCase;

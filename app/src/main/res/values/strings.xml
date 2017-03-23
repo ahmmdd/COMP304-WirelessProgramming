@@ -1,4 +1,21 @@
 <resources>
-    <string name="app_name">Lab5Adapters</string>
-    <string name="button_display_contacts">displayContacts</string>
+    <string name="app_name">COMP304-Test1</string>
+    <string name="first_name">First name: </string>
+    <string name="last_name">Last Name: </string>
+    <string name="phone_number">Phone Number: </string>
+    <string name="street">Street: </string>
+    <string name="postal_code">Postal Code: </string>
+    <string name="city">City: </string>
+
+    <string name="submit">SUBMIT</string>
+
+    <string name="enter_first_name">Enter first name</string>
+    <string name="enter_last_name">Enter last name</string>
+    <string name="enter_phone_number">Enter Phone Number: </string>
+    <string name="enter_street">Enter Street: </string>
+    <string name="enter_postal_code">Enter Postal Code: </string>
+    <string name="enter_city">Enter City: </string>
+
+    <string name="option1">First Option</string>
+    <string name="option2">Second Option</string>
 </resources>
