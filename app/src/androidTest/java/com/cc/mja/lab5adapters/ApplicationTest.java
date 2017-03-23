@@ -1,4 +1,4 @@
-package com.cc.mja.uiviewslab4;
+package com.cc.mja.lab5adapters;
 
 import android.app.Application;
 import android.test.ApplicationTestCase;

@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/UIViewsLab4.iml" filepath="$PROJECT_DIR$/UIViewsLab4.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Lab5Adapters.iml" filepath="$PROJECT_DIR$/Lab5Adapters.iml" />
       <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
     </modules>
   </component>

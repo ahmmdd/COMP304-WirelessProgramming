@@ -1,8 +1,4 @@
 <resources>
-    <string name="app_name">UIViewsLab4</string>
-    <string-array name="string_array_provinces">
-        <item>ON</item>
-        <item>AB</item>
-        <item>SK</item>
-    </string-array>
+    <string name="app_name">Lab5Adapters</string>
+    <string name="button_display_contacts">displayContacts</string>
 </resources>
