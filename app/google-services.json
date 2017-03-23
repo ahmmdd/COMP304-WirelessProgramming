@@ -1,0 +1,51 @@
+{
+  "project_info": {
+    "project_number": "866523199185",
+    "firebase_url": "https://lab7databasessqlite.firebaseio.com",
+    "project_id": "lab7databasessqlite",
+    "storage_bucket": "lab7databasessqlite.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:866523199185:android:097f4f614e0a1728",
+        "android_client_info": {
+          "package_name": "com.mja.lab7databasessqlite"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "866523199185-rv52al8orvq59rh4c68aflbigamcp2ju.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.mja.lab7databasessqlite",
+            "certificate_hash": "4E15D0FD02B0B4E880F5DAFEB5C29CD6361E2919"
+          }
+        },
+        {
+          "client_id": "866523199185-o2ial1t54o3eugcjml60cuarit3huu3a.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "866523199185-o2ial1t54o3eugcjml60cuarit3huu3a.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

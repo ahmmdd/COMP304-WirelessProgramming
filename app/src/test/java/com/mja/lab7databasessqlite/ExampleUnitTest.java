@@ -1,4 +1,4 @@
-package com.mja.lab6fragments;
+package com.mja.lab7databasessqlite;
 
 import org.junit.Test;
 
