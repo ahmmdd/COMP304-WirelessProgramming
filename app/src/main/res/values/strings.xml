@@ -1,8 +1,10 @@
 <resources>
-    <string name="app_name">IntentUseSample</string>
-    <string name="first_name">First name: </string>
-    <string name="last_name">Last Name: </string>
-    <string name="submit">SUBMIT</string>
-    <string name="enter_first_name">Enter first name</string>
-    <string name="enter_last_name">Enter last name</string>
+    <string name="app_name">LayoutUseSample</string>
+    <string name="button1">button1</string>
+    <string name="button2">Button2</string>
+    <string name="button3">Button3</string>
+    <string name="button4">Button4</string>
+    <string name="option1">First Option</string>
+    <string name="option2">Second Option</string>
+    <string name="option3">Third Option</string>
 </resources>

@@ -1,4 +1,4 @@
-package com.cc.mja.intentusesamplelab1;
+package com.cc.mja.layoutandmenusample;
 
 import org.junit.Test;
 
